@@ -30,6 +30,7 @@
   border: 1px solid rgba(177, 177, 177, 0.6235294118);
 }
 .txt h1 {
+  font-family: PT Sans;
   color: #C9A96E;
   font-size: 12px;
   font-weight: 400;
@@ -80,6 +81,7 @@
   line-height: normal;
 }
 .header nav .menu a {
+  font-family: PT Serif;
   text-decoration: none;
   padding-left: 15px;
   color: #171717;
@@ -131,6 +133,7 @@
 }
 
 .main {
+  font-family: PT Serif;
   height: auto;
   position: relative;
   display: flex;
@@ -279,11 +282,71 @@
 }
 
 .sidebar {
-  background-color: red;
+  background-color: #ffffff;
+  width: 270px;
+  height: auto;
   position: absolute;
   top: 80px;
-  right: 200px;
+  right: 300px;
   text-align: center;
+  font-style: normal;
+  font-family: PT Serif;
+}
+.sidebar .about h1 {
+  width: 270px;
+  height: 50px;
+  color: #171717;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 50px;
+  border: 1px solid #E5E5E5;
+  margin: 0;
+  padding: 0;
+}
+.sidebar .about .image {
+  background-image: url(../img/kate_willems.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 180px;
+  margin-top: 15px;
+}
+.sidebar .about .about-1 {
+  border: 1px solid rgba(229, 229, 229, 0.7450980392);
+}
+.sidebar .about .about-1 h2 {
+  color: #171717;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+.sidebar .about .about-1 span {
+  color: #B1B1B1;
+  text-align: center;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  margin-top: 15px;
+}
+.sidebar .about .about-1 p {
+  color: #666;
+  font-family: PT Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 10px;
+}
+.sidebar .about .about-1 a {
+  text-decoration: none;
+  color: #171717;
+  border-top: 1px solid rgba(229, 229, 229, 0.7333333333);
+  display: block;
+  line-height: 40px;
+  width: 270px;
+  height: 40px;
+}
+.sidebar .about .about-1 a:hover {
+  color: #C9A96E;
 }
 
 * {
