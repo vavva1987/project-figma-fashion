@@ -1,0 +1,23 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+
+@import "header";
+@import "main";
+@import "sidebar";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Serif', serif;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+
+  background-color: #ffffff;
+  width: 1920px;
+  height: auto;
+}
+
+
